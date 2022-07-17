@@ -17,5 +17,5 @@ services:
       - todofront
       - todoback
     environment:
-      - FRONY_HOST=todofront
+      - FRONT_HOST=todofront
     image: todotests
